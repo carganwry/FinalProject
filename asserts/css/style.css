@@ -1,0 +1,145 @@
+.begin1{
+	font-size:30px;
+	color:white;
+	font-style:bold;
+}
+
+.begin2{
+	font-size:19px;
+	color:white;
+	font-style:bold;
+}
+.display{
+	display: grid;
+	grid-template-columns: auto;
+	align-content: center;
+	grid-row-gap: 10px;
+}
+
+#listButton{
+	color:white;
+}
+
+
+#listButton:hover{
+	color:gold;
+}
+
+.listFont{
+	font-family: 'Sofia';font-size: 22px
+	color:white;
+}
+
+.firstHide{
+	color:black;
+	font-size: 18px;
+}
+
+#list{
+	color:white;
+}
+
+button{
+	
+}
+
+button:hover{
+	color:gold;
+}
+
+
+
+body{
+	background-color:gray;
+	text-align: center;
+}
+
+
+.hidetheeffectbt{
+     background:none!important;
+     color:inherit;
+     border:none; 
+     padding:0!important;
+     font: inherit;
+     /*border is optional*/
+     border-bottom:1px solid #444; 
+     cursor: pointer;
+}
+
+
+.decbut{
+	 text-align:centre;
+	
+	background-color:#363636;
+	font-style:bold;
+	color:white;
+	width:500px;
+}
+
+
+#text1{
+	background-color:#f7f7f7;
+	width:500px;
+}
+
+#canvas1{
+	background-color:#f7f7f7;
+	width:auto;
+
+}
+
+
+
+
+
+#text2{
+	background-color:#f7f7f7;
+	width:500px;
+}
+
+#canvas2{background-color:#f7f7f7;
+	width:auto;}
+
+
+
+#text3{
+	background-color:#f7f7f7;
+	width:500px;}
+
+#canvas3{
+	background-color:#f7f7f7;
+	width:auto;}
+
+
+
+#text4{
+	background-color:#f7f7f7;
+	width:500px;
+}
+
+#canvas4{background-color:#f7f7f7;
+	width:auto;}
+
+#text5{
+	background-color:#f7f7f7;
+	width:500px;
+}
+
+#canvas5{background-color:#f7f7f7;
+	width:auto;}
+
+#text6{
+	background-color:#f7f7f7;
+	width:500px;
+}
+
+#canvas6{background-color:#f7f7f7;
+	width:auto;}
+
+#text7{
+	background-color:#f7f7f7;
+	width:500px;
+}
+
+#canvas7{background-color:#f7f7f7;
+	width:auto;}

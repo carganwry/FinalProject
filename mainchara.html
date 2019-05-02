@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+     <title>Assignment 5: </title>
+     <link rel="stylesheet" href="asserts/css/style.css"> 
+     <!--googlefont-->
+     <link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
+         <!-- Don't Add link to the jQuery library here put it at the buttom above the JC link-->
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="asserts/css/page.css"/>
+  <link type="text/css" href="asserts/css/menu.css" rel="stylesheet" />
+  	<script src="asserts/js/Chart.min.js"></script>
+    <style> 
+        body {
+            background-image: url("asserts/images/bg.png" );
+            background-color: #cccccc;
+            background-size: 120px;
+            background-attachment: fixed;
+        }
+    </style>
+
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-139422448-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-139422448-1');
+</script>
+
+  </head>
+  
+
+<body  link="#904040" vlink="#886666" alink="#cca0a0">
+    <div class="header">
+  <div id="menu">
+    <ul class="menu" id="navmenu">
+     
+      <li><a href="#section-5" class="parent"><span>選択</span></a>
+        <ul>
+          <li><a href="#section-5-1"><span>空条承太郎</span></a></li>
+          <li><a href="#section-5-2"><span> ジョセフ・ジョスター</span></a></li> 
+          <li><a href="#section-5-3"><span> 水野水</span></a></li> 
+          <li><a href="#section-5-4"><span> モハメド・アヴドゥル</span></a></li>
+          <li><a href="#section-5-5"><span> 花京院典明</span></a></li>
+          <li><a href="#section-5-6"><span> ジャン・ピエール・ポルナレフ</span></a></li>
+          <li><a href="#section-5-7"><span> イギー</span></a></li>
+          <li><a href="#section-5-8"><span> </span></a></li>
+          
+          <li><button type="button " id="allShowButtom" class="hidetheeffectbt"> 全部を見せる </button></a></li>
+          <li><button type="button " id="allHideButtom" class="hidetheeffectbt">全部を隠れる</button></a></li>
+          <li><span> <a href="chara.html">退出する</span></a></li>
+           </ul>
+      </li>
+  </div>
+</div>
+
+	
+	<br>
+	<br>
+<div class="section" id="section-5" align="center">
+    <table width="640" border="0" cellspacing="0" class="gs">
+	<img src="asserts/images/gametitle.png" style="width:500px;">
+	<TABLE border="0" bgcolor="#292E1E" cellpadding="5" cellspacing="1">
+  <TBODY>
+    <TR>    
+      <TD bgcolor="#363636"><p class="begin2"><a href="https://jojo.fandom.com/wiki/Stardust_Crusaderss">ジョジョ第三部『Stardust・Crusaders』</a></p></TD>
+    </TR>
+    <TR>
+      <TD bgcolor="#f7f7f7"><FONT color="#292E1E" size="-1"><p>ジョジョ第三部『Stardust・Crusaders』舞台のオーソドックスなRPGです；<br> 主人公は謎の声と運命に誘われ、<br>ジョースター一行の7人目の同行者として彼らの旅 に加わる事になる、 <br>時間軸のズレた異質な世界は“何巡目かの世界”なのか？<br> 全ての謎を解く鍵は100年の眠りから覚めた男が握っていた…</p></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<div class="section" id="section-5-1">
+
+<br>
+
+
+	<div class= "display">
+
+
+	<button type="button" id="kujo" class="decbut">
+			寡黙の中に秘めたる力<br>
+            <font size="18px">空条承太郎</font>
+	</button>
+	<p id="text1" class="firstHide">
+			<img src="asserts/images/1.png" >
+			<br>
+			<br>
+		17歳、東京都在住の不良男子高校生。DIOが復活した影響で、スタンド能力に目覚める。そして、スタン ド発現の悪影響で重体になった母のホリィを救うため、ジョセフやモハメド・アヴドゥル、花京院典明や ジャン＝ピエール・ポルナレフ、イギーら仲間たちとともにDIOを打倒すべく、エジプトを目指す。<br> 若さに似合わず、性格は沈着冷静。とりたてて感情を表に出す必要はないと考えでいて、それを当然の ように思っているため、周囲に「冷たい奴」と思われることもしばしば。<br>しかし、心の底は優しい、母親思 いの青年なのだ。 また、怒ってキレると手のつけようのないバフーを発揮するぞ！つまり不良ながら正義を愛する青年。操るスタンドは「星の白金」。<br>承太郎の冷静な判断力も手伝って、圧倒的な強さを誇る。名字に「条」、名前 に「承」に続くことから、友達に「ジョジョ」と呼ばれるようになった。<br>
+		<br>
+
+		<div class="kujoHide">
+        <canvas id="canvas1"></canvas>
+    	</div>
+        <div class="section" id="section-5-2">
+
+	</p>
+
+
+
+	<button type="button" id="joseph" class="decbut">
+			老いてなお衰えめ闘志！<br>
+            <font size="18px">ジョセフ・ジョスター</font>
+	</button>
+	<p id="text2" class="firstHide">
+			<img src="asserts/images/2.png" >
+			<br>
+			<br>
+		69歳のイギリス出身アメリカ人。若い時、完全生物になったカーズを騙されて、宇宙に放逐したことがあ ります。その後、ニューヨークにて「ジョースター不動産」を経営する不動産王となった。カーズとの戦い で失った左腕には金属製の義手を装着し、その上に手袋を着けて隠している。<br>溺愛する娘のホリィに 要請され、孫の承太郎の異変に対応すべく日本へ向かう。 青年時代と同じく頭脳戦や駆け引きを得意とし、年月を経て得たさまざまな経験を用いて戦う。運動能 力も年齢と比較して非常に高く、街中を全力疾走してもそれほど息切れした様子も見られなかった。<br>波 紋能力も失ったわけではなく、必要に応じて波紋の技を使用している。飄然とした言動で一行のムード メーカーを担い、世界を旅した経験を披露したりするが、しばしば調子に乗って失敗することもある。<br><br>
+		<div class="joHide">
+        <canvas id="canvas2"></canvas>
+    	</div>
+        <div class="section" id="section-5-3">
+	</p>
+
+
+
+	<button type="button" id="mizu" class="decbut">
+			常形なし津波親分肌さん<br>
+            <font size="18px">水野水</font>
+	</button>
+	<p id="text3" class="firstHide">
+			<img src="asserts/images/7.png" >
+			<br>
+			<br>
+		17歳、子供の頃はイタリアに住んでいて、今東京都在住の男子高校生。優等生気質で、なんでも一番 になりたがり、出世したがる。だがしかし、学校の不良たちの番長なんでした。この間承太郎に倒した、 その後スタンド能力「海の蒼藍」に目覚める。<br>個人的にそれは，「非日常」の生活を望んでいる。謎の声 と運命に誘われ、ジョースター一行の7人目の同行者として彼らの旅に加わる事になる。 承太郎一行を知る前に、自分の力だけを頼り、自分の意志だけに従う。それに十分な自信と能力があ り、人気あるが超然として衆に交わらない。沈んだは落ち着いていて責任感があり、義侠心が強い人。<br> 冒険好きで勝気でぶしつけだが、警戒心も強く孤独。力強く暴力的で傲慢、攻撃的で怒りっぽく自分勝 手。<br>だが同時にいつもクールで、洞察力がある。常形なし、能く敵に因りて変化して膳を取る者、これこ そ水野の強さ。パワフルで粘り強く、秩序を重んじ決まりにうるさい。<br><br>
+
+		<div class="mizuHide">
+        <canvas id="canvas3"></canvas>
+    	</div>
+        <div class="section" id="section-5-4">
+	</p>
+
+
+
+	<button type="button" id="avdol" class="decbut">
+			灼熱の業火で敵を焼く！！<br>
+            <font size="18px">モハメド・アヴドゥル</font>
+	</button>
+	<p id="text4" class="firstHide">
+			<img src="asserts/images/6.png" >
+			<br>
+			<br>
+		エジプトのカイロ出身の占い師で、生まれながらのスタンド使い。ジョセフ・ジョスターの友人で、孫の空 条承太郎を檻から出すため、そして彼奴をスタンドというものを理解させるために登場した。<br> 一行の中でチームのブレインと呼べる存在。生真面目で確固たる意思と行動力を持った人物。しかしそ の意思の強さが行き過ぎ頑固かつ短気な一面を覗かせてしまうこともあり、アヴドゥル自身も自らを「 結構熱くなるタイプで、ギャンブルには向いていない」と評している。<br>友人であり、彼とは正反対の柔軟な 思考力を持ったジョセフはベスト・パートナーと言える。普段の落ち着いた態度に隠れがちだが仲間へ の信頼と思いやりは非常に強い。また、博識な人物でもあり、謎の多い存在であるスタンドに関する知 識も豊富。 <br>他にもハエの絵を見て種類を言い当てたり潜水艦の操縦も出来たりと、かなり幅広い分野 に精通している模様。 ちなみに、大好物はお寿司。 <br>アニメでは茶道も嗜んでおり、日本文化が大好きな <br><br>
+		<div class="avoHide">
+        <canvas id="canvas4"></canvas>
+    	</div>
+        <div class="section" id="section-5-5">
+	</p>
+
+
+
+	<button type="button" id="kakyo" class="decbut">
+			クールさの下に鋼鉄の意志！<br>
+            <font size="18px">花京院典明</font>
+	</button>
+	<p id="text5" class="firstHide">
+			<img src="asserts/images/5.png" >
+			<br>
+			<br>
+		17歳、空条承太郎の通う高校にやってきた転校生、生まれながらのスタンド使い。 「法王の緑」を操作している、素の彼は常に冷静で、分析力が高い上に頭の回転も速い、メンバーの中 での頭脳担当。<br>頭脳で幾度となく敵の特性や弱点を見抜き、メンバーのピンチを救ったり勝利に導い ている。 人に屈したり従属することを強く恥じ、恐怖に耐えられるよう成長したにだ！家族思いだが、イ ジプトに行くことは家族には伝えいなかった。<br> 「スタンドが見えない人間とは、心の根の部分まで分かり合うことが出来ない」という考えを持ってお り、承太郎達と会う前は友人を作らず、家族ですらも自分の理解者ではなかったことを回想しており、 彼がDIOに取り入られたのはそうした心境を読まれたことが原因であるようで、彼自身も自覚している。<br><br>
+		<div class="kaHide">
+        <canvas id="canvas5"></canvas>
+    	</div>
+        <div class="section" id="section-5-6">
+	</p>
+
+
+
+	<button type="button" id="pol" class="decbut">
+			騎士道精神を持つ伊達男<br>
+            <font size="18px">ジャン・ピエール・ポルナレフ</font>
+	</button>
+	<p id="text6" class="firstHide">
+			<img src="asserts/images/4.png" >
+			<br>
+			<br>
+		フランスからの男、生来のスタンド使い。高さ8cmに逆立てた特徴的な髪形の持ち主。3年前に最愛の 妹のシェリーを両手が右手の何者かに暴行・殺害され、復讐のために戦うという暗黒面も持ち合わせ ている。<br>この復讐心をDIOに利用され、一行を襲われた。が、アヴドゥル敗亡後は承太郎らの仲間に。 大胆に行動する、率直で人生を楽しみつくそうとする。社交的に見えるが、人づきあいは苦手。<br>単純で明 るく女好きなムードメーカーで、全体的に精神年齢が高めの一行の中では最も感情の起伏が激しい。 シモネタギャグシーンや女性がらみのシーンも多め。その一方でDIO戦においては卑怯なことと共に地 獄に堕ちることも厭わないと発言しており、イメージに反して信心深い面がうかがえる。<br>「戦車の銀」を 操作して、能力自体はシンプルながらも戦闘力は極めて高いスタンド使い。 <br>本人いわく理由があって10 年ほど修業をしたらしく、スタンド使いとしての技量は全員中でもトップクラス。<br><br>
+		
+<div class="section" id="section-5-7" >
+	</p>
+	<div class="polHide">
+        <canvas id="canvas6"></canvas>
+    </div>
+
+<br>
+<br>
+
+	<button type="button" id="iggy" class="decbut">
+			誇り高き孤高の野良犬<br>
+            <font size="18px">イギー</font>
+	</button>
+	<p id="text7" class="firstHide">
+			<img src="asserts/images/3.png" >
+			<br>
+			<br>
+		DIOの本拠地であるエジプトに到着したジョスダー一行の助っ人としてSPW財団から送り込まれたス タンド使いの犬。<br>元々大金持ちの人間に飼われる由緒正しい血統書付きのボストン・テリアだったが、 成長するに連れ人間を大マヌケと思うようになり家出し、ニューヨークでノラ犬の帝王として君臨して いたところをアヴドゥルが苦心して捕まて、「イギー」の名をくれたんだ。ひねくれてはいるが知能が高い ーー人間の言葉や文化をそれなりに理解しているらしく、また、誇り高き精神の持ち主でもある，DIO、 の館を発見したのもイギー。<br>スタンドは「愚者」。 人の髪の毛を口でむしり、その顔に向かって屁をするという下品な趣味を持つ。やたらと食い意地が張 っており、拾い食いや盗み食いの常習犯。<br>甘味、中でもコーヒーガムが大好物で、ガムで誘い出す事が イギーを従わせる数少ない方法となっている。<br>当初はDIOとの戦いなどには無理やり巻き込まれるが、 少年を救うなど優しい一面もある。<br><br>
+		<div class="iggyHide">
+        <canvas id="canvas7"></canvas>
+    	</div>
+	</p>
+<div class="section" id="section-5-8">
+	</div>
+</table>
+</div>
+
+	
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <!--google"Jqueury cpn use 3.0.1 code and put it at the buttom of the code to make sure it runs at last to make the website appear sooner"-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.bundle.js"></script>
+  <script type="text/javascript" src="asserts/js/standoPower.js"></script>
+
+
+  <!--chart-->
+  <script>
+  	//jotaro
+  	//$(".firstHide").hide();
+  	  //$("#kujo").click(function(){
+    //      	$(".firstHide").show();
+    //  });
+    $(".kujoHide").hide();
+	var kujoSwitch =  false;
+	$("#kujo").click(function(){
+        if(kujoSwitch == false){
+        	var quotes = [
+        	"オララララオラ裁くのはおれの『スタンド』だッ───！！", 
+        	"おれのスタンドは脳の針を正確に抜き弾丸をつかむほど精密な動きと分析をする・・・・・・・・・・", 
+        	"ああ　うそだぜ！だが・・・・・・・・・・マヌケは見つかったようだな",
+        	 "それじゃあてめーは地獄の底で寝ぼけな！！",
+        	 "西部劇のガンマン風に言うと・・・『ぬきな！どっちが素早いか試してみようぜ』というやつだぜ・・・・・・・・"];
+        	var randomPick = Math.floor(Math.random() * quotes.length);
+        	alert(quotes[randomPick] ); 
+        	//ramdom words poping
+         	$(".kujoHide").show();
+            kujoSwitch = true;
+        }else{
+           	$(".kujoHide").hide();
+           	kujoSwitch = false;
+        }
+      }
+    );
+
+
+
+
+
+
+        var chartJotaro = document.getElementById('canvas1').getContext('2d');
+
+        var canvas2 = document.getElementById("canvas");
+        var myRadarChart = new Chart(chartJotaro, {
+
+            "type": "radar",
+            "data": {
+                "labels": ["Power", "Speed", "Range", "Durability","Percision","Learing"],
+                "datasets": [
+                	{
+                    	"label": "Star Platinum",
+                    	"data": [5, 5, 3, 5, 5, 5],
+                    	"backgroundColor": "rgba(128,0,128,0.25)",
+                   		"borderColor": "rgba(128,0,128,0.5)",
+                    	"pointBackgroundColor": "purple",
+                    	
+                	}
+                ]
+            },
+            
+            options: {
+                scale: {
+                    ticks: {
+                        suggestedMin: 0,
+                        suggestedMax: 5,
+                        stepSize: 1
+                    }
+                },
+
+            }
+        });
+        window.addEventListener('resize', function () {
+           myLineChart.resize()
+        })
+
+
+
+
+
+
+//joseph
+$(".joHide").hide();
+	var joSwitch =  false;
+	$("#joseph").click(function(){
+        if(joSwitch == false){
+        	var quotes = ["「相手が勝ち誇ったときそいつはすでに敗北している」これがジョセフ・ジョースターのやり方老いてますます健在というところかな", 
+        	"これで肉の芽がなくなってにくめないヤツになったわけじゃなジャンジャン", 
+        	"子どもというのはいつまでも親のスネをかじってちゃいかん！大きくなったらひとり立ちせんとなあ！！", 
+        	"OH MY GOD",
+        	"OH NOOOO!!!"];
+        	var randomPick = Math.floor(Math.random() * quotes.length);
+        	alert(quotes[randomPick] );  
+        	//ramdom words poping
+         	$(".joHide").show();
+            joSwitch = true;
+        }else{
+           	$(".joHide").hide();
+           	joSwitch = false;
+        }
+    }
+ );
+
+
+	var chartJoseph = document.getElementById('canvas2').getContext('2d');
+
+        var canvas = document.getElementById("canvas");
+        var myRadarChart = new Chart(chartJoseph, {
+            "type": "radar",
+            "data": {
+                "labels": ["Power", "Speed", "Range", "Durability","Percision","Learing"],
+                "datasets": [
+                	{
+                    	"label": "Hermit Purple",
+                    	"data": [2, 3, 2, 5, 2, 1],
+                    	"backgroundColor": "rgba(115, 60, 159, 0.5)",
+                   		"borderColor": "rgba(115, 60, 159, 0.75)",
+                    	"pointBackgroundColor": "purple",
+                    	
+                	}
+                ]
+            },
+            options: {
+                scale: {
+                    ticks: {
+                        suggestedMin: 0,
+                        suggestedMax: 5,
+                        stepSize: 1
+                    }
+                },
+
+            }
+        });
+
+
+
+
+//mizuno
+$(".mizuHide").hide();
+	var mizuSwitch =  false;
+	$("#mizu").click(function(){
+        if(mizuSwitch == false){
+        	var quotes = ["Bene!",
+        	 "ようろしくな、僕の名前わ『水』·の水です。",
+        	 "俺の名前を言いましょうーー！",
+        	 "だがな、バルに履いて、そしてギュニュ飲んでるその態度が、俺わ大嫌いだ！！！"];
+        	var randomPick = Math.floor(Math.random() * quotes.length);
+        	alert(quotes[randomPick] );  
+        	//ramdom words poping
+         	$(".mizuHide").show();
+            mizuSwitch = true;
+        }else{
+           	$(".mizuHide").hide();
+           	mizuSwitch = false;
+        }
+    }
+ );
+
+
+
+
+
+	var chartMizu = document.getElementById('canvas3').getContext('2d');
+
+        var canvas = document.getElementById("canvas");
+        var myRadarChart = new Chart(chartMizu, {
+            "type": "radar",
+            "data": {
+                "labels": ["Power", "Speed", "Range", "Durability","Percision","Learing"],
+                "datasets": [
+                	{
+                    	"label": "Ocean Blue",
+                    	"data": [5, 4, 5, 3, 3, 2],
+                    	"backgroundColor": "rgba(60, 83, 159, 0.5)",
+                   		"borderColor": "rgba(60, 83, 159, 0.75)",
+                    	"pointBackgroundColor": "blue",
+                    	
+                	}
+                ]
+            },
+            options: {
+                scale: {
+                    ticks: {
+                        suggestedMin: 0,
+                        suggestedMax: 5,
+                        stepSize: 1
+                    }
+                },
+
+            }
+        });
+
+//avdol
+$(".avoHide").hide();
+	var aSwitch =  false;
+	$("#avdol").click(function(){
+        if(aSwitch == false){
+        	var quotes = ["チッ♪チッ♪　ＹＥＳ　Ｉ　ＡＭ！", 
+        	"HELL 2 U", 
+        	"地獄を！きさまに！ＨＥＬＬ(ヘル)　２Ｕ(トゥーユー)！", 
+        	"ああ～～～～～～これはわたしの役じゃあない・・・決してェェェェ"];
+        	var randomPick = Math.floor(Math.random() * quotes.length);
+        	alert(quotes[randomPick] );   
+        	//ramdom words poping
+         	$(".avoHide").show();
+            aSwitch = true;
+        }else{
+           	$(".avoHide").hide();
+           	aSwitch = false;
+        }
+    }
+ );
+
+
+
+	var chartAvdol = document.getElementById('canvas4').getContext('2d');
+
+        var canvas = document.getElementById("canvas");
+        var myRadarChart = new Chart(chartAvdol, {
+            "type": "radar",
+            "data": {
+                "labels": ["Power", "Speed", "Range", "Durability","Percision","Learing"],
+                "datasets": [
+                	{
+                    	"label": "Magician Red",
+                    	"data": [4, 4, 3, 4, 3, 2],
+                    	"backgroundColor": "rgba(159, 60, 60, 0.5)",
+                   		"borderColor": "rgba(159, 60, 60, 0.75)",
+                    	"pointBackgroundColor": "red",
+                    	
+                	}
+                ]
+            },
+            options: {
+                scale: {
+                    ticks: {
+                        suggestedMin: 0,
+                        suggestedMax: 5,
+                        stepSize: 1
+                    }
+                },
+
+            }
+        });
+//kakyoin
+$(".kaHide").hide();
+	var kSwitch =  false;
+	$("#kakyo").click(function(){
+        if(kSwitch == false){
+        	var quotes = ["「悪」とは敗者のこと・・・「正義」とは勝者のこと・・・・・・・・生き残った者のことだ過程は問題じゃあない敗けたやつが『悪』なのだ", 
+        	"それは仲なおりの「握手」のかわりだ", 
+        	"後悔はない・・・・・・今までの旅に・・・・・・これから起こる事柄に・・・・・・ぼくは後悔はない・・・・・・", 
+        	];
+        	var randomPick = Math.floor(Math.random() * quotes.length);
+        	alert(quotes[randomPick] );  
+        	//ramdom words poping
+         	$(".kaHide").show();
+            kSwitch = true;
+        }else{
+           	$(".kaHide").hide();
+           	kSwitch = false;
+        }
+    }
+ );
+
+
+	var chartKakyo = document.getElementById('canvas5').getContext('2d');
+
+        var canvas = document.getElementById("canvas");
+        var myRadarChart = new Chart(chartKakyo, {
+            "type": "radar",
+            "data": {
+                "labels": ["Power", "Speed", "Range", "Durability","Percision","Learing"],
+                "datasets": [
+                	{
+                    	"label": "Hierophant Green",
+                    	"data": [3, 4, 5, 4, 3, 2],
+                    	"backgroundColor": "rgba(60, 159, 73, 0.5)",
+                   		"borderColor": "rgba(60, 159, 73, 0.75)",
+                    	"pointBackgroundColor": "green",
+                    	
+                	}
+                ]
+            },
+            options: {
+                scale: {
+                    ticks: {
+                        suggestedMin: 0,
+                        suggestedMax: 5,
+                        stepSize: 1
+                    }
+                },
+
+            }
+        });
+
+//polner
+$(".polHide").hide();
+	var pSwitch =  false;
+	$("#pol").click(function(){
+        if(pSwitch == false){
+        	var quotes = ["フフ…やはりこのまま……自害するのは無礼だな…", 
+        	"シャッターボタンのように君のハートも押して押しまくりたいな〜", 
+        	"なに？おハジキだあ～？", 
+        	"迷惑なんだよ"];
+        	var randomPick = Math.floor(Math.random() * quotes.length);
+        	alert(quotes[randomPick] );  
+        	//ramdom words poping
+         	$(".polHide").show();
+            pSwitch = true;
+        }else{
+           	$(".polHide").hide();
+           	pSwitch = false;
+        }
+    }
+ );
+
+
+	var chartPol = document.getElementById('canvas6').getContext('2d');
+
+        var canvas = document.getElementById("canvas");
+        var myRadarChart = new Chart(chartPol, {
+            "type": "radar",
+            "data": {
+                "labels": ["Power", "Speed", "Range", "Durability","Percision","Learing"],
+                "datasets": [
+                	{
+                    	"label": "Sliver Chariot",
+                    	"data": [3, 5, 3, 4, 4, 3],
+                    	"backgroundColor": "rgba(158, 158, 158, 0.5)",
+                   		"borderColor": "rgba(158, 158, 158, 0.75)",
+                    	"pointBackgroundColor": "sliver",
+                    	
+                	}
+                ]
+            },
+            options: {
+                scale: {
+                    ticks: {
+                        suggestedMin: 0,
+                        suggestedMax: 5,
+                        stepSize: 1
+                    }
+                },
+
+            }
+        });
+//iggy
+$(".iggyHide").hide();
+	var igSwitch =  false;
+	$("#iggy").click(function(){
+        if(igSwitch == false){
+        	var quotes = ["やらなきゃやられる！", 
+        	"やれやれ…犬好きの扉は見殺しには…できねーぜ！"];
+        	var randomPick = Math.floor(Math.random() * quotes.length);
+        	alert(quotes[randomPick] );  
+        	//ramdom words poping
+         	$(".iggyHide").show();
+            igSwitch = true;
+        }else{
+           	$(".iggyHide").hide();
+           	igSwitch = false;
+        }
+    }
+ );
+
+
+	var chartIggy = document.getElementById('canvas7').getContext('2d');
+
+        var canvas = document.getElementById("canvas");
+        var myRadarChart = new Chart(chartIggy, {
+            "type": "radar",
+            "data": {
+                "labels": ["Power", "Speed", "Range", "Durability","Percision","Learing"],
+                "datasets": [
+                	{
+                    	"label": "The Fool",
+                    	"data": [4, 3, 2, 3, 2, 3],
+                    	"backgroundColor": "rgba(214, 152, 102, 0.5)",
+                   		"borderColor": "rgba(214, 152, 102, 0.75)",
+                    	"pointBackgroundColor": "orange",
+                    	
+                	}
+                ]
+            },
+            options: {
+                scale: {
+                    ticks: {
+                        suggestedMin: 0,
+                        suggestedMax: 5,
+                        stepSize: 1
+                    }
+                },
+
+            }
+        });
+
+    </script>
+
+</body>
+</html>

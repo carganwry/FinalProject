@@ -1,0 +1,59 @@
+
+		/* tablet sized devices */
+	@media only screen and (min-width: 500px) {
+
+		.logo{
+			/*width:px;*/
+			height:80px;
+		}
+
+		.menu{
+			display: block;
+		}
+		.topSection{
+			margin: 15px;
+			grid-template-columns: 250px auto;
+			background-color: darkgray;
+
+		}
+		.gallery{
+			grid-template-columns: 250px auto;
+		}
+
+		.Introduction{
+			float:right;
+		}
+
+		.pic3{
+			height:200px;
+			display:block;
+			margin-left:auto;
+			margin-right:auto;
+			width:50%;
+
+		}
+
+		.container {
+		display: grid;
+		grid-template-areas:
+		  "sign sign sign sign sign"
+          "title title title title title"
+          "buttons pic pic pic pic"
+          "buttons context context context context"
+          "contact contact contact contact contact";
+		}
+	}
+
+
+	/* MEDIA QUERIES desktop sized devices */ 
+	@media only screen and (min-width: 768px) {
+		body{
+		background-color: green;
+		}
+
+		header{
+	    background-image: url("Deadpool.jpg");
+	    }
+
+	
+	}
